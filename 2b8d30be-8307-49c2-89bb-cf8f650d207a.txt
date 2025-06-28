@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+books.db
+venv/
+*.sqlite3
+*.png
