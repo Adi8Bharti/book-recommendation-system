@@ -8,24 +8,6 @@ A Python-based recommendation system that suggests books to users based on colla
 - Uses SVD for collaborative filtering.
 - Provides a Flask web interface to input user ID and view recommendations.
 
-## Setup
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Adi8Bharti/book-recommendation-system.git
-   cd book-recommendation-system
-   ```
-2. **Install dependencies**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-3. **Ensure dataset**:
-   - The `data/book_ratings.csv` file is included with sample data.
-   - Alternatively, use a larger dataset (e.g., [Goodreads dataset](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks)).
-4. **Run the app**:
-   ```bash
-   python src/app.py
-   ```
-5. Open `http://localhost:5000` in your browser.
 
 ## Usage
 - Enter a User ID (e.g., 1–4 for the sample dataset) to get book recommendations.
@@ -53,6 +35,3 @@ book-recommendation-system/
 ## Dataset
 - `book_ratings.csv`: Contains `user_id`, `book_id`, `rating`, and `title`.
 - Sample data includes 12 ratings for 6 books by 4 users.
-
-## License
-MIT License
